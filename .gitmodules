@@ -1,3 +1,6 @@
 [submodule "plugins/vscode"]
 	path = plugins/vscode
 	url = https://github.com/valentinocossar/vscode
+[submodule "plugins/zsh-autosuggestions"]
+	path = plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
