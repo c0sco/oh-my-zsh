@@ -7,3 +7,6 @@
 [submodule "plugins/zsh-syntax-highlighting"]
 	path = custom-shared/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "custom-shared/plugins/zsh-ezcolors"]
+	path = custom-shared/plugins/zsh-ezcolors
+	url = https://github.com/c0sco/zsh-ezcolors.git
