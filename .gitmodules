@@ -1,9 +1,9 @@
 [submodule "plugins/vscode"]
-	path = plugins/vscode
+	path = custom-shared/plugins/vscode
 	url = https://github.com/valentinocossar/vscode
 [submodule "plugins/zsh-autosuggestions"]
-	path = plugins/zsh-autosuggestions
+	path = custom-shared/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "plugins/zsh-syntax-highlighting"]
-	path = plugins/zsh-syntax-highlighting
+	path = custom-shared/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
