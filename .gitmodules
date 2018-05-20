@@ -10,3 +10,6 @@
 [submodule "custom-shared/plugins/zsh-ezcolors"]
 	path = custom-shared/plugins/zsh-ezcolors
 	url = https://github.com/c0sco/zsh-ezcolors.git
+[submodule "custom-shared/plugins/ssh-autocomplete"]
+	path = custom-shared/plugins/ssh-autocomplete
+	url = https://github.com/c0sco/ssh-autocomplete.git
