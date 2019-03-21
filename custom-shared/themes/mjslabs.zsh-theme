@@ -103,7 +103,14 @@ else
   # Show green on success, red on failure
   _LIBERTY="%(?.%F{green}.%F{red})$%f"
 fi
-_USERNAME="$_USERNAME%{$reset_color%}@%m"
+
+# colorize hostname if connecting via ssh
+if [[ -n SSH_CONNECTION ]]; then
+  _USERNAME="$_USERNAME%{$reset_color%}@%{$fg[red]%}%m"
+else
+  _USERNAME="$_USERNAME%{$reset_color%}@%m"
+fi
+
 _LIBERTY="$_LIBERTY%{$reset_color%}"
 
 
