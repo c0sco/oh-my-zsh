@@ -105,8 +105,8 @@ else
 fi
 
 # colorize hostname if connecting via ssh
-if [[ -n SSH_CONNECTION ]]; then
-  _USERNAME="$_USERNAME%{$reset_color%}@%{$fg[red]%}%m"
+if [[ -n $SSH_CONNECTION ]]; then
+  _USERNAME="$_USERNAME%{$reset_color%}@%{$fg[red]%}%m%{$reset_color%}"
 else
   _USERNAME="$_USERNAME%{$reset_color%}@%m"
 fi
